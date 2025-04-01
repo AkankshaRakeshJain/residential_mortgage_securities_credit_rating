@@ -16,7 +16,6 @@ The solution consists of three main components:
 Clone the repository to your local machine:
 ```bash
 git clone <repository-url>
-cd credit_rating
 ```
 ### 2. Set Up the Frontend (React)
 
