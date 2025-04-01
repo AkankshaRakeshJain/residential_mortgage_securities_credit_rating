@@ -1,0 +1,3 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/AkankshaRakeshJain/residential_mortgage_securities_credit_rating
