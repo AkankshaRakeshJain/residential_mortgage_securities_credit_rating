@@ -1,0 +1,92 @@
+body{
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form_css {
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.form_row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.form_row label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+.form_row input, .form_row select {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+input[type="number"] {
+  width: 100%;
+  max-width: 250px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+  -webkit-appearance: none; /* Chrome, Safari, Opera */
+  appearance: none; /* Standard */
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form label{
+  margin-right: 10px;
+}
+
+.error{
+  color: red;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd; 
+}
+
+th, td {
+  padding: 8px; 
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.button{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+.button-container {
+  text-align: center; 
+}
